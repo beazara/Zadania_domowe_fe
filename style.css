@@ -1,0 +1,99 @@
+body {
+  background-color: #aaa69d; }
+
+.container {
+  padding-left: 10px;
+  color: #0D1F2B; }
+
+.page-footer {
+  background-color: #000;
+  color: #ff9;
+  text-align: center;
+  padding: 50px 0; }
+
+.page-header {
+  padding: 20px 0; }
+  .page-header .container {
+    display: flex;
+    align-items: center;
+    flex-direction: column; }
+    @media only screen and (min-width: 1024px) {
+      .page-header .container {
+        flex-direction: row;
+        justify-content: space-between; } }
+
+.container {
+  max-width: 1024px;
+  margin: 0 auto;
+  padding: 0 10px; }
+
+.section {
+  padding: 50px 0; }
+
+.hero-section img {
+  width: 100%; }
+  @media only screen and (min-width: 700px) {
+    .hero-section img {
+      display: flex;
+      justify-content: space-between; } }
+
+* {
+  box-sizing: border-box; }
+
+@media only screen and (min-width: 700px) and (max-width: 1024px) {
+  .box-container {
+    flex-wrap: wrap; } }
+@media only screen and (min-width: 700px) {
+  .box-container {
+    display: flex;
+    justify-content: space-between; } }
+
+.box {
+  height: 100px;
+  display: flex;
+  flex: 0 calc(100% / 3 - 50px);
+  align-items: center;
+  justify-content: center;
+  background-color: #b33939;
+  margin-bottom: 50px; }
+  .box :last-child {
+    margin-bottom: 0; }
+  @media only screen and (min-width: 700px) {
+    .box {
+      margin-bottom: 0; } }
+  @media only screen and (min-width: 700px) and (max-width: 1024px) {
+    .box {
+      flex: 0 calc(50% - 25px); } }
+
+.page-logo {
+  margin-bottom: 25px; }
+  @media only screen and (min-width: 1024px) {
+    .page-logo {
+      margin-bottom: 0; } }
+
+.main-nav a:hover {
+  color: #A8AECC;
+  text-decoration: none; }
+.main-nav a {
+  font-size: 18px;
+  color: black;
+  text-decoration: none; }
+.main-nav ul {
+  display: flex; }
+.main-nav li {
+  margin-right: 25px; }
+  .main-nav li :last-child {
+    margin-right: 0; }
+
+.img-with-text img {
+  width: 100%;
+  margin-bottom: 30px; }
+  @media only screen and (min-width: 700px) {
+    .img-with-text img {
+      float: left;
+      width: auto;
+      margin: 0 50px 30px 0; } }
+.img-with-text p {
+  text-align: justify; }
+
+/*# sourceMappingURL=style.css.map */
